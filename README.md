@@ -22,5 +22,5 @@ machine (through postman or UI)
 4. Run the following commands:
     terraform init
     terraform apply
-5. It will display public IP once EC2 is provisioned. Copy it and append /health at the end to access IP (For example: 34.200.223.131/health)
+5. It will display public IP once EC2 is provisioned. Copy it and append /health at the end to access API (For example: 34.200.223.131/health)
 6. It will return {"result":"Healthy","error":false} 

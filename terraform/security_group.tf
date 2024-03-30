@@ -25,13 +25,3 @@ resource "aws_security_group_rule" "ingress_rules" {
   description       = var.sg_ingress_rules[count.index].description
   security_group_id = aws_security_group.aws_sg.id
 }
-
-# resource "aws_security_group_rule" "ingress_rules_self" {
-#   type              = "ingress"
-#   from_port         = 0
-#   to_port           = 0
-#   protocol          = -1
-#   self              = true
-#   description       = "Access to security group itself"
-#   security_group_id = aws_security_group.aws_sg.id
-# }

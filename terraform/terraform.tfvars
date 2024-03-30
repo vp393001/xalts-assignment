@@ -1,6 +1,6 @@
 name          = "webserver"
-vpc_id        = "vpc-0f05fe8756ea69769"
-subnet_id     = "subnet-06053fd3e4c157e55"
+vpc_id        = "" # Replace with VPC ID of your AWS account
+subnet_id     = "" # Replace with public subnet ID
 ami           = "ami-0c101f26f147fa7fd"
 instance_type = "t2.micro"
 tags          = { Name = "webserver" }
